@@ -3,6 +3,7 @@
     "description": "Official Yandex PHP library",
     "keywords":["yandex","sdk"],
     "type":"library",
+    "version":"0.5.0",
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {
@@ -30,6 +31,11 @@
             "homepage": "https://github.com/nixsolutions/yandex-php-library/graphs/contributors"
         }
     ],
+   "extra": {
+        "branch-alias": {
+            "dev-master": "0.5.0"
+        }
+    },    
     "support": {
         "issues": "https://github.com/nixsolutions/yandex-php-library/issues",
         "wiki": "https://github.com/nixsolutions/yandex-php-library/wiki"
