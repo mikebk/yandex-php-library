@@ -251,7 +251,7 @@ class OAuthClient
      */
     public function requestAccessToken($code)
     {
-        $client = $this->getClient();
+        $client = new Client();
 
         $request = $client->createRequest(
             'POST',
